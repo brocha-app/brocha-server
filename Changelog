@@ -1,0 +1,21 @@
+brocha (1.0.2) testing; urgency=medium
+
+  * Impl: brocha.ini TURN/STUN servers now used by web client.
+  * Impl: ice_servers config parameter replaces deprecated turn_servers/stun_server options.
+
+ -- Anton Adamansky <adamansky@gmail.com>  Thu, 05 May 2022 13:52:32 +0700
+
+brocha (1.0.1) testing; urgency=medium
+
+  * UI: Added room time tracker.
+  * UI: Media devices detection improvements.
+  * Fix: Wrong number of active rooms in admin pane.
+  * Perf: iwstree replaced by iwhmap.
+  * Fix: Endless loop due to typo.
+  * Impl: Active speaker identification.
+  * Fix: iwnet upgraded (critical bugs fixed).
+  * Fix: disabled Set-Cookie samesite=node for non secure connections.
+  * Impl: Added Docker image.
+  * Fix: Disabled building of unneeded libdeflate shared library.
+
+ -- Anton Adamansky <adamansky@gmail.com>  Wed, 04 May 2022 14:41:15 +0700
